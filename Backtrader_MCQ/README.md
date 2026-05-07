@@ -121,7 +121,7 @@ Example record shape:
 
 ## Data Generation
 
-Questions are generated from deterministic Backtrader runs over historical AAPL market data loaded with `yfinance` using `auto_adjust=False`. Each run uses the row-level configuration embedded in the JSONL record.
+The released JSONL files are already generated and can be used directly for evaluation. Rebuilding the dataset uses deterministic Backtrader runs over historical AAPL market data loaded with `yfinance` using `auto_adjust=False`. Each run uses the row-level configuration embedded in the JSONL record.
 
 The standard configuration used by the released questions is:
 
